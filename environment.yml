@@ -1,0 +1,34 @@
+name: test_time_registers
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10.17
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - pytorch-cuda=12.4
+  - pytorch-mutex=1.0=cuda
+  - numpy=1.24.3
+  - matplotlib=3.10.3
+  - jupyter=1.1.1
+  - ipython=8.36.0
+  - cuda-runtime=12.4.1
+  - cuda-cudart=12.4.127
+  - pip=25.1.1
+  - pip:
+    - transformers==4.45.1
+    - accelerate==1.6.0
+    - huggingface-hub==0.31.2
+    - tokenizers==0.20.3
+    - safetensors==0.5.3
+    - opencv-python==4.11.0.86
+    - pillow==11.2.1
+    - pandas==2.2.3
+    - einops==0.8.1
+    - tqdm==4.67.1
+    - requests==2.32.3
+    - ftfy==6.3.1
